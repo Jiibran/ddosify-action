@@ -16,7 +16,7 @@ jobs:
       - name: Execute ddosify 
         uses: ./
         with:
-          args: "-t console.steiner.fun"
+          args: "-t console.steiner.fun -n 2000"
       
       - name: Upload Results
         uses: actions/upload-artifact@v2
